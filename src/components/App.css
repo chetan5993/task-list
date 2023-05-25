@@ -1,0 +1,101 @@
+body{
+  background-color: #F1F6F9;
+  margin: 0px;
+  color: #212A3E;
+}
+input, textarea{
+  color: #212A3E;
+}
+button{
+  background-color: #212A3E;
+  color: #F1F6F9;
+  border: none;
+}
+button:hover{
+  cursor: pointer;
+}
+select{
+  color: #212A3E;
+}
+.export{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 1.2rem;
+  padding: 10px 30px;
+}
+.TaskList>h1{
+  text-align: center;
+}
+.TaskForm{
+  width: 500px;
+  margin: 0px auto 20px;
+  padding: 0px 20px 20px;
+  text-align: center;
+  border: 1px solid #212A3E;
+}
+.TaskForm form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.TaskForm form input{
+  width: 100%;
+  font-size: 1rem;
+  height: 30px;
+} 
+.TaskForm form textarea{
+  width: 100%;
+  height: 60px;
+  font-size: 1rem;
+}
+.TaskForm form select{
+  width: 100px;
+  height: 30px;
+}
+.TaskForm button{
+  padding: 5px 20px;
+  height: 30px;
+  width: 100px;
+}
+.lists{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.lists .list{
+  width: 500px;
+  text-align: center;
+  height: fit-content;
+  margin: 20px 0px;
+}
+.list:first-child{
+  border-right: 1px solid #212A3E;
+}
+.list:last-child{
+  border-left: 1px solid #212A3E;
+}
+.TaskCard{
+  padding: 10px 20px;
+  margin: 30px 20px;
+  text-align: left;
+  font-size: 1rem;
+  box-shadow: rgba(43, 43, 184, 0.2) 0px 7px 29px 0px;
+}
+.TaskCard button{
+  margin-right: 20px;
+  height: 30px;
+  width: 100px;
+}
+.TaskCard select{
+  height: 30px;
+  width: 60px;
+}
+.TaskCard input{
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  height: 30px;
+}
